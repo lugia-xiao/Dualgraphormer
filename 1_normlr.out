@@ -1,0 +1,245 @@
+/gpfs/gibbs/project/wang_zuoheng/xx244/conda_envs/torch/lib/python3.9/site-packages/torch_geometric/deprecation.py:22: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+train loader length: 258
+val loader length: 33
+test loader length: 33
+Training-> epoch: 0 step: 20 loss: 0.6210995614528656 rocauc: {'rocauc': 0.48257030457517813}
+Training-> epoch: 0 step: 40 loss: 0.5227868657559156 rocauc: {'rocauc': 0.49310648198215307}
+Training-> epoch: 0 step: 60 loss: 0.45663496976097423 rocauc: {'rocauc': 0.5022376241362217}
+Training-> epoch: 0 step: 80 loss: 0.4177617099136114 rocauc: {'rocauc': 0.5001251514181526}
+Training-> epoch: 0 step: 100 loss: 0.3856632928550243 rocauc: {'rocauc': 0.5040515394877053}
+Training-> epoch: 0 step: 120 loss: 0.36764539207021396 rocauc: {'rocauc': 0.5049126758906648}
+Training-> epoch: 0 step: 140 loss: 0.35817998072930746 rocauc: {'rocauc': 0.509960929725664}
+Training-> epoch: 0 step: 160 loss: 0.3473000302910805 rocauc: {'rocauc': 0.5120575403200494}
+Training-> epoch: 0 step: 180 loss: 0.3413429806629817 rocauc: {'rocauc': 0.5119680445743814}
+Training-> epoch: 0 step: 200 loss: 0.3393945265561342 rocauc: {'rocauc': 0.517903843478041}
+Training-> epoch: 0 step: 220 loss: 0.33481504300778564 rocauc: {'rocauc': 0.5187430273377772}
+Training-> epoch: 0 step: 240 loss: 0.3297136836995681 rocauc: {'rocauc': 0.5201747170128435}
+Finish training, epoch: 0 {'rocauc': 0.5184174100158581}
+rocauc: {'rocauc': 0.5184174100158581}
+Validating-> epoch: 0 step: 20 loss: 0.12638225704431533 rocauc: {'rocauc': 0.7424900793650794}
+Finish validating, epoch: 0 {'rocauc': 0.6709931657848323}
+rocauc: {'rocauc': 0.6709931657848323}
+Testing-> epoch: 0 step: 20 loss: 0.2305168889462948 accuracy: rocauc: {'rocauc': 0.7655636676702774}
+Finish testing, epoch: 0 {'rocauc': 0.723806948763012}
+rocauc: {'rocauc': 0.723806948763012}
+Training-> epoch: 1 step: 20 loss: 0.2542642645537853 rocauc: {'rocauc': 0.6350792427290333}
+Training-> epoch: 1 step: 40 loss: 0.2732853405177593 rocauc: {'rocauc': 0.6127455738468707}
+Training-> epoch: 1 step: 60 loss: 0.2752450087418159 rocauc: {'rocauc': 0.6158059549322736}
+Training-> epoch: 1 step: 80 loss: 0.2674552450887859 rocauc: {'rocauc': 0.6204463047568375}
+Training-> epoch: 1 step: 100 loss: 0.2746029225736856 rocauc: {'rocauc': 0.6200225945497355}
+Training-> epoch: 1 step: 120 loss: 0.27168209869414567 rocauc: {'rocauc': 0.6165670655297921}
+Training-> epoch: 1 step: 140 loss: 0.2708045584282705 rocauc: {'rocauc': 0.6199065914721933}
+Training-> epoch: 1 step: 160 loss: 0.2716339936014265 rocauc: {'rocauc': 0.6191012514793645}
+Training-> epoch: 1 step: 180 loss: 0.274446017584867 rocauc: {'rocauc': 0.6269527738934829}
+Training-> epoch: 1 step: 200 loss: 0.2753613409772515 rocauc: {'rocauc': 0.6225737341259895}
+Training-> epoch: 1 step: 220 loss: 0.2765061873265288 rocauc: {'rocauc': 0.6216543505035137}
+Training-> epoch: 1 step: 240 loss: 0.2756757891116043 rocauc: {'rocauc': 0.6219349959102297}
+Finish training, epoch: 1 {'rocauc': 0.6256873553678}
+rocauc: {'rocauc': 0.6256873553678}
+Validating-> epoch: 1 step: 20 loss: 0.11426121443510055 rocauc: {'rocauc': 0.7415972222222222}
+Finish validating, epoch: 1 {'rocauc': 0.672165882814031}
+rocauc: {'rocauc': 0.672165882814031}
+Testing-> epoch: 1 step: 20 loss: 0.20652910098433494 accuracy: rocauc: {'rocauc': 0.7867319094707454}
+Finish testing, epoch: 1 {'rocauc': 0.747117557310879}
+rocauc: {'rocauc': 0.747117557310879}
+Training-> epoch: 2 step: 20 loss: 0.2599919557571411 rocauc: {'rocauc': 0.7104685090933205}
+Training-> epoch: 2 step: 40 loss: 0.26946891359984876 rocauc: {'rocauc': 0.6956107707525646}
+Training-> epoch: 2 step: 60 loss: 0.2691947738329569 rocauc: {'rocauc': 0.701798050383701}
+Training-> epoch: 2 step: 80 loss: 0.2658364627510309 rocauc: {'rocauc': 0.6936243399480639}
+Training-> epoch: 2 step: 100 loss: 0.26188269928097724 rocauc: {'rocauc': 0.6899252238539892}
+Training-> epoch: 2 step: 120 loss: 0.2566255229214827 rocauc: {'rocauc': 0.6954152176156843}
+Training-> epoch: 2 step: 140 loss: 0.2625158004994903 rocauc: {'rocauc': 0.6921797802647741}
+Training-> epoch: 2 step: 160 loss: 0.2578797981608659 rocauc: {'rocauc': 0.6887730079670695}
+Training-> epoch: 2 step: 180 loss: 0.25926834390395215 rocauc: {'rocauc': 0.6848382810649514}
+Training-> epoch: 2 step: 200 loss: 0.2625718889757991 rocauc: {'rocauc': 0.6817756468151293}
+Training-> epoch: 2 step: 220 loss: 0.26060446998612447 rocauc: {'rocauc': 0.6816761085498872}
+Training-> epoch: 2 step: 240 loss: 0.26105891857296226 rocauc: {'rocauc': 0.6809434678007489}
+Finish training, epoch: 2 {'rocauc': 0.6844428089987628}
+rocauc: {'rocauc': 0.6844428089987628}
+Validating-> epoch: 2 step: 20 loss: 0.11603074278682471 rocauc: {'rocauc': 0.7326190476190476}
+Finish validating, epoch: 2 {'rocauc': 0.6905251812659219}
+rocauc: {'rocauc': 0.6905251812659219}
+Testing-> epoch: 2 step: 20 loss: 0.19754351936280728 accuracy: rocauc: {'rocauc': 0.7989941193923858}
+Finish testing, epoch: 2 {'rocauc': 0.759228644817397}
+rocauc: {'rocauc': 0.759228644817397}
+Training-> epoch: 3 step: 20 loss: 0.2249477541074157 rocauc: {'rocauc': 0.6866719817319239}
+Training-> epoch: 3 step: 40 loss: 0.2437983981333673 rocauc: {'rocauc': 0.7019578849366083}
+Training-> epoch: 3 step: 60 loss: 0.22743145345399776 rocauc: {'rocauc': 0.7095723169542049}
+Training-> epoch: 3 step: 80 loss: 0.24600397231988608 rocauc: {'rocauc': 0.7023941832323861}
+Training-> epoch: 3 step: 100 loss: 0.24958073440939188 rocauc: {'rocauc': 0.7104405661972675}
+Training-> epoch: 3 step: 120 loss: 0.25111246639862655 rocauc: {'rocauc': 0.7073220508447163}
+Training-> epoch: 3 step: 140 loss: 0.24847261791250536 rocauc: {'rocauc': 0.7047682986595869}
+Training-> epoch: 3 step: 160 loss: 0.2525119099533185 rocauc: {'rocauc': 0.7027555399921224}
+Training-> epoch: 3 step: 180 loss: 0.2515005030358831 rocauc: {'rocauc': 0.7041773963554008}
+Training-> epoch: 3 step: 200 loss: 0.25109321320429445 rocauc: {'rocauc': 0.7000235799042109}
+Training-> epoch: 3 step: 220 loss: 0.2521579827943986 rocauc: {'rocauc': 0.6992990144820544}
+Training-> epoch: 3 step: 240 loss: 0.2538667765290787 rocauc: {'rocauc': 0.7046942522960393}
+Finish training, epoch: 3 {'rocauc': 0.7046466176313188}
+rocauc: {'rocauc': 0.7046466176313188}
+Validating-> epoch: 3 step: 20 loss: 0.11122316401451826 rocauc: {'rocauc': 0.7433531746031745}
+Finish validating, epoch: 3 {'rocauc': 0.7055745394865766}
+rocauc: {'rocauc': 0.7055745394865766}
+Testing-> epoch: 3 step: 20 loss: 0.19727013781666755 accuracy: rocauc: {'rocauc': 0.7984444844375485}
+Finish testing, epoch: 3 {'rocauc': 0.7655227022538094}
+rocauc: {'rocauc': 0.7655227022538094}
+Training-> epoch: 4 step: 20 loss: 0.2423855409026146 rocauc: {'rocauc': 0.7120914727233074}
+Training-> epoch: 4 step: 40 loss: 0.2487523566931486 rocauc: {'rocauc': 0.719803407337066}
+Training-> epoch: 4 step: 60 loss: 0.2526613535980384 rocauc: {'rocauc': 0.7179616812099207}
+Training-> epoch: 4 step: 80 loss: 0.2485174449160695 rocauc: {'rocauc': 0.7466594258130081}
+Training-> epoch: 4 step: 100 loss: 0.24692506901919842 rocauc: {'rocauc': 0.7375500912600337}
+Training-> epoch: 4 step: 120 loss: 0.24295255622516077 rocauc: {'rocauc': 0.7315952065966912}
+Training-> epoch: 4 step: 140 loss: 0.242064195605261 rocauc: {'rocauc': 0.7377573465258225}
+Training-> epoch: 4 step: 160 loss: 0.24170389492064714 rocauc: {'rocauc': 0.7336421234827656}
+Training-> epoch: 4 step: 180 loss: 0.23888474715252717 rocauc: {'rocauc': 0.7373082091133978}
+Training-> epoch: 4 step: 200 loss: 0.237768164165318 rocauc: {'rocauc': 0.7376546542048927}
+Training-> epoch: 4 step: 220 loss: 0.23503464545038613 rocauc: {'rocauc': 0.7438835828612316}
+Training-> epoch: 4 step: 240 loss: 0.23725201425453027 rocauc: {'rocauc': 0.7428689858499429}
+Finish training, epoch: 4 {'rocauc': 0.740487132937163}
+rocauc: {'rocauc': 0.740487132937163}
+Validating-> epoch: 4 step: 20 loss: 0.11316838301718235 rocauc: {'rocauc': 0.7182539682539683}
+Finish validating, epoch: 4 {'rocauc': 0.7142704046639232}
+rocauc: {'rocauc': 0.7142704046639232}
+Testing-> epoch: 4 step: 20 loss: 0.18626992013305427 accuracy: rocauc: {'rocauc': 0.7999426044914417}
+Finish testing, epoch: 4 {'rocauc': 0.7711195658471581}
+rocauc: {'rocauc': 0.7711195658471581}
+Training-> epoch: 5 step: 20 loss: 0.22950940504670142 rocauc: {'rocauc': 0.7937507253104329}
+Training-> epoch: 5 step: 40 loss: 0.21944504268467427 rocauc: {'rocauc': 0.7937920601085195}
+Training-> epoch: 5 step: 60 loss: 0.2268927921851476 rocauc: {'rocauc': 0.7846013322487826}
+Training-> epoch: 5 step: 80 loss: 0.22488762168213725 rocauc: {'rocauc': 0.7778763332752704}
+Training-> epoch: 5 step: 100 loss: 0.22099486608058214 rocauc: {'rocauc': 0.7724781551687688}
+Training-> epoch: 5 step: 120 loss: 0.2277820263368388 rocauc: {'rocauc': 0.7680730223123732}
+Training-> epoch: 5 step: 140 loss: 0.22160623435463225 rocauc: {'rocauc': 0.7689660417998855}
+Training-> epoch: 5 step: 160 loss: 0.22266132198274136 rocauc: {'rocauc': 0.763595457159287}
+Training-> epoch: 5 step: 180 loss: 0.22401919244892068 rocauc: {'rocauc': 0.7628899863701231}
+Training-> epoch: 5 step: 200 loss: 0.2301193955913186 rocauc: {'rocauc': 0.7590106681616197}
+Training-> epoch: 5 step: 220 loss: 0.2316706198182973 rocauc: {'rocauc': 0.7578471738995625}
+Training-> epoch: 5 step: 240 loss: 0.23285106352219978 rocauc: {'rocauc': 0.7555823656584691}
+Finish training, epoch: 5 {'rocauc': 0.7562016406104868}
+rocauc: {'rocauc': 0.7562016406104868}
+Validating-> epoch: 5 step: 20 loss: 0.11428871899843215 rocauc: {'rocauc': 0.7136805555555555}
+Finish validating, epoch: 5 {'rocauc': 0.7506736233588086}
+rocauc: {'rocauc': 0.7506736233588086}
+Testing-> epoch: 5 step: 20 loss: 0.1851085701957345 accuracy: rocauc: {'rocauc': 0.804500196993059}
+Finish testing, epoch: 5 {'rocauc': 0.77371521273103}
+rocauc: {'rocauc': 0.77371521273103}
+Training-> epoch: 6 step: 20 loss: 0.19275394976139068 rocauc: {'rocauc': 0.7878107836768439}
+Training-> epoch: 6 step: 40 loss: 0.21941180787980558 rocauc: {'rocauc': 0.7516222147598648}
+Training-> epoch: 6 step: 60 loss: 0.22188822453220686 rocauc: {'rocauc': 0.7567712233748696}
+Training-> epoch: 6 step: 80 loss: 0.21162083256058395 rocauc: {'rocauc': 0.7653370768523944}
+Training-> epoch: 6 step: 100 loss: 0.2169712634012103 rocauc: {'rocauc': 0.761581377698946}
+Training-> epoch: 6 step: 120 loss: 0.22271179441983502 rocauc: {'rocauc': 0.7583442326254825}
+Training-> epoch: 6 step: 140 loss: 0.2251097094533699 rocauc: {'rocauc': 0.760333165743575}
+Training-> epoch: 6 step: 160 loss: 0.2258962210966274 rocauc: {'rocauc': 0.7635382911776425}
+Training-> epoch: 6 step: 180 loss: 0.22479231806678904 rocauc: {'rocauc': 0.7651136500829808}
+Training-> epoch: 6 step: 200 loss: 0.22612566674128176 rocauc: {'rocauc': 0.7674206469520658}
+Training-> epoch: 6 step: 220 loss: 0.22680736751380293 rocauc: {'rocauc': 0.7672829622272084}
+Training-> epoch: 6 step: 240 loss: 0.22572812957999608 rocauc: {'rocauc': 0.7705956459660729}
+Finish training, epoch: 6 {'rocauc': 0.7702867228921888}
+rocauc: {'rocauc': 0.7702867228921888}
+Validating-> epoch: 6 step: 20 loss: 0.11862168870866299 rocauc: {'rocauc': 0.7105952380952381}
+Finish validating, epoch: 6 {'rocauc': 0.7529363854595336}
+rocauc: {'rocauc': 0.7529363854595336}
+Testing-> epoch: 6 step: 20 loss: 0.1862664882093668 accuracy: rocauc: {'rocauc': 0.8088291802656732}
+Finish testing, epoch: 6 {'rocauc': 0.7771123428416925}
+rocauc: {'rocauc': 0.7771123428416925}
+Training-> epoch: 7 step: 20 loss: 0.20503103826195002 rocauc: {'rocauc': 0.7657421271538919}
+Training-> epoch: 7 step: 40 loss: 0.21300525413826107 rocauc: {'rocauc': 0.7612214270937272}
+Training-> epoch: 7 step: 60 loss: 0.21192265705515942 rocauc: {'rocauc': 0.7636408189797255}
+Training-> epoch: 7 step: 80 loss: 0.21724263434298335 rocauc: {'rocauc': 0.7728219780424935}
+Training-> epoch: 7 step: 100 loss: 0.2187497318163514 rocauc: {'rocauc': 0.7823820123897776}
+Training-> epoch: 7 step: 120 loss: 0.21718628459299605 rocauc: {'rocauc': 0.7809555452108643}
+Training-> epoch: 7 step: 140 loss: 0.21943572262035949 rocauc: {'rocauc': 0.7914747480883199}
+Training-> epoch: 7 step: 160 loss: 0.22013597164768725 rocauc: {'rocauc': 0.7904098766905527}
+Training-> epoch: 7 step: 180 loss: 0.21763686962011788 rocauc: {'rocauc': 0.7957624499362532}
+Training-> epoch: 7 step: 200 loss: 0.2201097439043224 rocauc: {'rocauc': 0.7916386453597987}
+Training-> epoch: 7 step: 220 loss: 0.21658347189765084 rocauc: {'rocauc': 0.7894461848211007}
+Training-> epoch: 7 step: 240 loss: 0.21799391345120966 rocauc: {'rocauc': 0.7927174003297629}
+Finish training, epoch: 7 {'rocauc': 0.7929005555844895}
+rocauc: {'rocauc': 0.7929005555844895}
+Validating-> epoch: 7 step: 20 loss: 0.1147281989455223 rocauc: {'rocauc': 0.7276587301587302}
+Finish validating, epoch: 7 {'rocauc': 0.7756068734077994}
+rocauc: {'rocauc': 0.7756068734077994}
+Testing-> epoch: 7 step: 20 loss: 0.17734749615192413 accuracy: rocauc: {'rocauc': 0.8284506617507575}
+Finish testing, epoch: 7 {'rocauc': 0.7963537341393228}
+rocauc: {'rocauc': 0.7963537341393228}
+Training-> epoch: 8 step: 20 loss: 0.2609406799077988 rocauc: {'rocauc': 0.7618872690505928}
+Training-> epoch: 8 step: 40 loss: 0.23395869359374047 rocauc: {'rocauc': 0.7757571109282188}
+Training-> epoch: 8 step: 60 loss: 0.2238858828941981 rocauc: {'rocauc': 0.7865616325056966}
+Training-> epoch: 8 step: 80 loss: 0.21192990494892 rocauc: {'rocauc': 0.8003444894035038}
+Training-> epoch: 8 step: 100 loss: 0.2008732281625271 rocauc: {'rocauc': 0.8217611616127735}
+Training-> epoch: 8 step: 120 loss: 0.20285078852126995 rocauc: {'rocauc': 0.8139080117290727}
+Training-> epoch: 8 step: 140 loss: 0.20124627080346857 rocauc: {'rocauc': 0.8130204093483612}
+Training-> epoch: 8 step: 160 loss: 0.20303351837210357 rocauc: {'rocauc': 0.8125899092917218}
+Training-> epoch: 8 step: 180 loss: 0.20782432725860012 rocauc: {'rocauc': 0.813554785660898}
+Training-> epoch: 8 step: 200 loss: 0.2119388758763671 rocauc: {'rocauc': 0.8111759562368996}
+Training-> epoch: 8 step: 220 loss: 0.2109889191660014 rocauc: {'rocauc': 0.8090951279756184}
+Training-> epoch: 8 step: 240 loss: 0.21023555596669516 rocauc: {'rocauc': 0.808197644498684}
+Finish training, epoch: 8 {'rocauc': 0.8075919884372156}
+rocauc: {'rocauc': 0.8075919884372156}
+Validating-> epoch: 8 step: 20 loss: 0.11037460025399923 rocauc: {'rocauc': 0.7346924603174604}
+Finish validating, epoch: 8 {'rocauc': 0.7884302126200273}
+rocauc: {'rocauc': 0.7884302126200273}
+Testing-> epoch: 8 step: 20 loss: 0.1755986513569951 accuracy: rocauc: {'rocauc': 0.8220982436001576}
+Finish testing, epoch: 8 {'rocauc': 0.7815871299175341}
+rocauc: {'rocauc': 0.7815871299175341}
+Training-> epoch: 9 step: 20 loss: 0.21908279024064542 rocauc: {'rocauc': 0.8212183441218267}
+Training-> epoch: 9 step: 40 loss: 0.20777265038341283 rocauc: {'rocauc': 0.8131695109766546}
+Training-> epoch: 9 step: 60 loss: 0.21025036883850892 rocauc: {'rocauc': 0.8114128274616081}
+Training-> epoch: 9 step: 80 loss: 0.20339587898924946 rocauc: {'rocauc': 0.819762332422231}
+Training-> epoch: 9 step: 100 loss: 0.19918033331632615 rocauc: {'rocauc': 0.820933448842049}
+Training-> epoch: 9 step: 120 loss: 0.20446566538885236 rocauc: {'rocauc': 0.8193019145298389}
+Training-> epoch: 9 step: 140 loss: 0.20775159211563213 rocauc: {'rocauc': 0.8159696135292742}
+Training-> epoch: 9 step: 160 loss: 0.20571381447371095 rocauc: {'rocauc': 0.8181425737055391}
+Training-> epoch: 9 step: 180 loss: 0.20836117236564558 rocauc: {'rocauc': 0.8177250830478463}
+Training-> epoch: 9 step: 200 loss: 0.2076786349900067 rocauc: {'rocauc': 0.818470549097553}
+Training-> epoch: 9 step: 220 loss: 0.20678078256208787 rocauc: {'rocauc': 0.8182397680469728}
+Training-> epoch: 9 step: 240 loss: 0.2061757975568374 rocauc: {'rocauc': 0.8180132240777344}
+Finish training, epoch: 9 {'rocauc': 0.8176152459511186}
+rocauc: {'rocauc': 0.8176152459511186}
+Validating-> epoch: 9 step: 20 loss: 0.11237244214862585 rocauc: {'rocauc': 0.7254662698412698}
+Finish validating, epoch: 9 {'rocauc': 0.7840547227121301}
+rocauc: {'rocauc': 0.7840547227121301}
+Testing-> epoch: 9 step: 20 loss: 0.1729639833793044 accuracy: rocauc: {'rocauc': 0.8292921382745353}
+Finish testing, epoch: 9 {'rocauc': 0.7920450375634911}
+rocauc: {'rocauc': 0.7920450375634911}
+Training-> epoch: 10 step: 20 loss: 0.22209345735609531 rocauc: {'rocauc': 0.8264102042094713}
+Training-> epoch: 10 step: 40 loss: 0.20781724378466607 rocauc: {'rocauc': 0.8074185666966036}
+Training-> epoch: 10 step: 60 loss: 0.2086027828976512 rocauc: {'rocauc': 0.8222405286290694}
+Training-> epoch: 10 step: 80 loss: 0.20641001197509468 rocauc: {'rocauc': 0.82815858606867}
+Training-> epoch: 10 step: 100 loss: 0.21177769917994738 rocauc: {'rocauc': 0.822391663875466}
+Training-> epoch: 10 step: 120 loss: 0.20582611781234542 rocauc: {'rocauc': 0.8218164826501464}
+Training-> epoch: 10 step: 140 loss: 0.20760924770895925 rocauc: {'rocauc': 0.8166683576839827}
+Training-> epoch: 10 step: 160 loss: 0.20729268023278563 rocauc: {'rocauc': 0.8165370251575143}
+Training-> epoch: 10 step: 180 loss: 0.20521479656712877 rocauc: {'rocauc': 0.8183337148244624}
+Training-> epoch: 10 step: 200 loss: 0.2051330584473908 rocauc: {'rocauc': 0.8224918455504117}
+Training-> epoch: 10 step: 220 loss: 0.20211495450613173 rocauc: {'rocauc': 0.8282030297876062}
+Training-> epoch: 10 step: 240 loss: 0.20206791503975788 rocauc: {'rocauc': 0.8252362953558886}
+Finish training, epoch: 10 {'rocauc': 0.8241334857554583}
+rocauc: {'rocauc': 0.8241334857554583}
+Validating-> epoch: 10 step: 20 loss: 0.11311778090894223 rocauc: {'rocauc': 0.720218253968254}
+Finish validating, epoch: 10 {'rocauc': 0.7844466490299825}
+rocauc: {'rocauc': 0.7844466490299825}
+Testing-> epoch: 10 step: 20 loss: 0.17400445751845836 accuracy: rocauc: {'rocauc': 0.8264661390819635}
+Finish testing, epoch: 10 {'rocauc': 0.7879989957318603}
+rocauc: {'rocauc': 0.7879989957318603}
+Training-> epoch: 11 step: 20 loss: 0.17608986105769872 rocauc: {'rocauc': 0.8621242315429303}
+Training-> epoch: 11 step: 40 loss: 0.19665013765916228 rocauc: {'rocauc': 0.8504070720207441}
+Training-> epoch: 11 step: 60 loss: 0.19206123234083256 rocauc: {'rocauc': 0.8413540798750062}
+Training-> epoch: 11 step: 80 loss: 0.1895227643661201 rocauc: {'rocauc': 0.843602853211369}
+Training-> epoch: 11 step: 100 loss: 0.18835494462400676 rocauc: {'rocauc': 0.8474365329542515}
+Training-> epoch: 11 step: 120 loss: 0.18913300909722844 rocauc: {'rocauc': 0.8444635153619529}
+Training-> epoch: 11 step: 140 loss: 0.19566948182348695 rocauc: {'rocauc': 0.8350260404705012}
+Training-> epoch: 11 step: 160 loss: 0.19608903310727327 rocauc: {'rocauc': 0.8328616326478677}
+Training-> epoch: 11 step: 180 loss: 0.19569777769760954 rocauc: {'rocauc': 0.8363776214613208}
+Training-> epoch: 11 step: 200 loss: 0.19537073101848365 rocauc: {'rocauc': 0.8317657583622607}
+Training-> epoch: 11 step: 220 loss: 0.19753328748047352 rocauc: {'rocauc': 0.8309909662857355}
+Training-> epoch: 11 step: 240 loss: 0.19589327682430546 rocauc: {'rocauc': 0.8293585387965544}
+Finish training, epoch: 11 {'rocauc': 0.8272809597488304}
+rocauc: {'rocauc': 0.8272809597488304}
+Validating-> epoch: 11 step: 20 loss: 0.11151693621650338 rocauc: {'rocauc': 0.7262797619047618}
+Finish validating, epoch: 11 {'rocauc': 0.7899856701940036}
+rocauc: {'rocauc': 0.7899856701940036}
+Testing-> epoch: 11 step: 20 loss: 0.17153204027563335 accuracy: rocauc: {'rocauc': 0.8240341260074613}
+Finish testing, epoch: 11 {'rocauc': 0.7837115432897507}
+rocauc: {'rocauc': 0.7837115432897507}
