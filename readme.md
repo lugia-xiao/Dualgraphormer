@@ -91,5 +91,7 @@ Please refer to requirements.txt
 
 # Reproductivity
 
-Simply run `train.py` to reproduce the results. Raw results are presented in `1_normlr.out`. The results for model comparison is in `my_GRIT.zip` and `graphormer.zip`
+Simply run `train_normlr.py` to reproduce the results. Raw results are presented in `1_normlr.out`. The results for model comparison is in `my_GRIT.zip` and `graphormer.zip`.
+
+The introduction of the model is in `Dualgraphormer.pdf`, cite after use.
 
